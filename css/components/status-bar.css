@@ -6,6 +6,10 @@
 @import "screens/login.css";
 
 .status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 5px 5px;
   display: flex;
   justify-content: center;
   padding: 5px 3px;

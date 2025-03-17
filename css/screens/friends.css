@@ -4,9 +4,61 @@
   background-color: #fafafa;
   padding: 15px 0px;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
   padding-left: 10px;
+}
+
+/*.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.user-component__avatar {
+  margin-left: var(--horizontal-space);
+}
+
+.user-component__avatar.user-component__avatar--xl {
+  margin-left: var(--horizontal-space);
+}
+*/
+.user-component__text {
+  display: flex;
+  align-items: center;
+}
+
+.friends__screen__channel__header {
+  /*padding-left: var(--horizontal-space);*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* 수평 중앙 정렬 */
+  padding-bottom: 15px;
+}
+
+.friends__screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+
+/* 모든 요소에 box-sizing 적용 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* friends__screen에만 여백 추가 */
+.friends__screen {
+  padding-left: var(--horizontal-space); /* 왼쪽 여백 */
+  padding-right: var(--horizontal-space); /* 오른쪽 여백 */
+}
+
+/* 다른 기존 요소가 영향을 미치지 않도록 유지 */
+body,
+html {
+  margin: 0;
+  padding: 0;
 }

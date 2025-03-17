@@ -1,3 +1,3 @@
-# Kokoa Clone 2025 Update
+# My first HTML & CSS
 
 HTML & CSS are so much fun!

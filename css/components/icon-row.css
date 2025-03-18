@@ -1,0 +1,26 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap; /* 아이콘이 화면 크기에 맞게 줄 바꿈되도록 설정 */
+  justify-content: space-between; /* 각 아이콘 사이에 균일한 간격 추가 */
+  margin-top: 20px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(
+    25% - 10px
+  ); /* 4개의 아이콘을 가로로 나열하고 각 아이콘의 너비를 균등하게 설정 */
+  margin-bottom: 10px;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
